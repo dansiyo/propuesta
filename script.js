@@ -10,13 +10,19 @@ const alternatives = [
   const text = document.querySelector('.text')
   const buttons = document.querySelectorAll('.button')
   const errorButton = document.querySelector('.button__error')
-
+  const preloadImages = () => {
+    [...alternatives, ohyes].forEach(item => {
+        const img = new Image();
+        img.src = item.images;
+    });
+};
+preloadImages();
   
   let count = 0;
-  
-  function updateDisplay(item){
-    sonic.src = item.images
-    text.innerHTML = item.text
+
+  function updateDisplay(item) {
+    sonic.src = item.images;
+    text.textContent = item.text;
   }
   
   errorButton.addEventListener('click', ()=>{
