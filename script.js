@@ -1,7 +1,7 @@
 const alternatives = [
     {text:"Aprovecha", images:"images/sonic gato.PNG"},
     {text:"Vamos di que si", images:"images/sonic coqueto.PNG"},
-    {text:"Si dices que si, serè el mejor san valentin que hayas tenido", images:"images/sonic kirby.PNG"},
+    {text:"Estas segura?", images:"images/sonic kirby.PNG"},
     {text:"Ay", images:"images/sonic kirby 2.PNG"},
     {text:"Si no dices que si, no te voy a dar conflei", images:"images/sonic 2.PNG"}
   ]
