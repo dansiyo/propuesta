@@ -14,7 +14,7 @@ body{
     height: 100vh;
     flex-direction: column;
     color:var(--heart-color);
-    background-image:url("images/corazon.avif");
+    background-image:url("images/hearts.jpg");
     background-size: 100%;
 }
 .card{
