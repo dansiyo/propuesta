@@ -1,9 +1,9 @@
 const alternatives = [
     {text:"Aprovecha", images:"images/sonic gato.PNG"},
-    {text:"Estas segura?", images:"images/sonic coqueto.PNG"},
-    {text:"Asegurate bien", images:"images/sonic kirby.PNG"},
-    {text:"Vas a dejar pasar esta oportunidad?", images:"images/sonic kirby 2.PNG"},
-    {text:"Estas segura de que te aseguraste bien?", images:"images/sonic 2.PNG"}
+    {text:"Vamos di que si", images:"images/sonic coqueto.PNG"},
+    {text:"Si dices que si, serè el mejor san valentin que hayas tenido", images:"images/sonic kirby.PNG"},
+    {text:"Ay", images:"images/sonic kirby 2.PNG"},
+    {text:"Si no dices que si, no te voy a dar conflei", images:"images/sonic 2.PNG"}
   ]
   const ohyes = {text:"Sabia eleccion", images:"images/sonic.gif"}
   const sonic = document.querySelector('.sonic')
